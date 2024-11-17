@@ -1,0 +1,33 @@
+{
+  "name": "lobstah-theme",
+  "displayName": "Lobstah Theme",
+  "description": "A lobster-like theme for VS Code",
+  "version": "0.0.1",
+  "author": {
+    "name": "Todd Libby",
+    "email": "toddlibby@proton.me"
+  },
+  "publisher": "ToddLibby",
+  "license": "MIT",
+  "repository": "https://github.com/colabottles/vscode-lobstah",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "red"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lobstah Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lobstah-color-theme.json"
+      }
+    ]
+  }
+}
